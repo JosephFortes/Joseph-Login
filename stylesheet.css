@@ -14,6 +14,8 @@ h1{
 }
 
 
+
+
 /*container*/
 .container{
     display: flex;
@@ -78,6 +80,7 @@ box-shadow: 15px 15px 5px 5px;
     cursor: pointer;
     background-color: lightblue;
     opacity: 1;
+    transform: scale(1.05);
  
 }
 #submit{
@@ -94,6 +97,7 @@ box-shadow: 15px 15px 5px 5px;
 #submit:hover{
     cursor: pointer;
     background-color:lightblue;
+    transform: scale(1.3);
   
 }
 .form a{
@@ -103,6 +107,7 @@ box-shadow: 15px 15px 5px 5px;
 }
 .form a:hover{
     color: limegreen;
+   
 }
 ::placeholder{
     color: green;
